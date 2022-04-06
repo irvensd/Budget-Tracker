@@ -24,6 +24,9 @@ mongoose.connect(MONGODB_URI, {
 // routes
 app.use(require("./routes/api.js"));
 
+// Use this to log mongo queries being executed!
+mongoose.set('debug', true);
+
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
