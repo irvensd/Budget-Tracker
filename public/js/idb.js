@@ -67,8 +67,8 @@ function uploadBudget() {
   };
 }
 function deletePending() {
-  const transaction = db.transaction(["new_budget"], "readwrite");
-  const store = transaction.objectStore("new_budget");
+  const transaction = db.transaction(["new-budget"], "readwrite");
+  const store = transaction.objectStore("new-budget");
   store.clear();
 }
 
