@@ -10,5 +10,9 @@ An app that allows users to keep track of their finances by allowing them to add
 ## Usage
 From the root folder of this repository, run the commands npm init -y followed by npm i. To host the application locally use the command npm start.
 
+## Screenshot 
+
+![alt text](https://github.com/irvensd/Budget-Tracker/blob/main/public/assets/screenshot.png)
+
 ## Contributor 
 Irvens Dupuy 
